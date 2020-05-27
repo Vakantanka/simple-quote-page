@@ -30,3 +30,31 @@ p.author {
   font-size: 1.5rem;
   margin-top: 3rem;
 }
+.lang-select {
+  position: absolute;
+  bottom: 8px;
+  right: 8px;
+}
+.lang-select img {
+  width: 32px;
+  padding: 5px;
+  transition: all 0.25s ease-in-out;
+  filter: grayscale(90%);
+}
+.lang-select img:hover {
+  transform: scale(1.5);
+  filter: grayscale(10%);
+}
+.lang-select div {
+  font-size: .75rem;
+}
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    margin: 4rem auto 0 auto;
+  }
+  p.author {
+    font-size: 1rem;
+  }
+}
